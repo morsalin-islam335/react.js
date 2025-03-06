@@ -11,6 +11,7 @@ import TransitionType from "./components/TransitionType";
 import Variants from "./components/Variants";
 
 import { AnimatePresence } from "motion/react";
+import ParentComponent from "./components/modals/ParentComponent";
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
           <Route path="/counter" element={<Counter />} />
           <Route path="/scroll" element={<ScrollReveal />} />
           <Route path="/variants" element={<Variants />} />
+          <Route path="/modals" element={<ParentComponent />} />
         </Routes>
       </AnimatePresence>
     </>

@@ -5,7 +5,7 @@ const Box = ({ text }) => {
   return (
     <motion.div
       className="w-32 h-32 border rounded-sm bg-pink-300 text-black m-4 text-center"
-      initial={{ opacity: 0, x: -50 }}
+      initial={{ opacity: 0, x: -50, y: -500 }}
       whileInView={{
         opacity: 1,
         x: 0,
